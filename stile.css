@@ -56,7 +56,7 @@ canvas::before {
     color: #fff;
     border: 1px solid #fff;
     font-size: 18px;
-    padding: 10px 20px;
+    padding: 10px 75px;
     margin: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -85,9 +85,8 @@ canvas::before {
 .controls {
     display: grid;
     grid-template-areas:
-        ". up ."
-        "left . right"
-        ". down .";
+        "left . up"
+        " right . down ";
 }
 
 .level-input {

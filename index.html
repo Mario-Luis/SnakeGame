@@ -8,23 +8,20 @@
 </head>
     <body>
         <h1>Snake Game</h1>
-        <header>
-            <div class="score">
-                Score: <span id="score">0</span>
-            </div>
-            <div class="level">
-                Level: <span id="level">1</span>
-            </div>
-        </header>
-        
         <div class="game-container">
-            <canvas id="gameCanvas" width="400" height="400"></canvas>
+            <canvas id="gameCanvas" width="360" height="360"></canvas>
         </div>
         <div class="controls">
             <button class="up">Up</button>
             <button class="left">Left</button>
             <button class="right">Right</button>
             <button class="down">Down</button>
+        </div>
+        <div class="score">
+            Score: <span id="score">0</span>
+        </div>
+        <div class="level">
+            Level: <span id="level">1</span>
         </div>
         <div class="level-input">
             <label for="levelInput">Set Level (1-6): </label>
