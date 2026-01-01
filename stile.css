@@ -11,16 +11,6 @@ body {
     margin: 0;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 1792px;
-    height: 828px;
-    overflow: hidden;
-    touch-action: manipulation;
-    -webkit-user-select: none;
-    user-select: none;
-}
 
 header {
     display: flex;
